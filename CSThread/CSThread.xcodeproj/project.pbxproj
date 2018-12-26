@@ -7,17 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2ABC611121D3283C00911A93 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ABC611021D3283C00911A93 /* ViewController.m */; };
 		2AE165AE21D0E017004BA625 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE165AD21D0E017004BA625 /* AppDelegate.m */; };
 		2AE165B421D0E017004BA625 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AE165B221D0E017004BA625 /* Main.storyboard */; };
 		2AE165B721D0E017004BA625 /* CSThread.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2AE165B521D0E017004BA625 /* CSThread.xcdatamodeld */; };
 		2AE165B921D0E017004BA625 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AE165B821D0E017004BA625 /* Assets.xcassets */; };
 		2AE165BC21D0E017004BA625 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AE165BA21D0E017004BA625 /* LaunchScreen.storyboard */; };
 		2AE165BF21D0E017004BA625 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE165BE21D0E017004BA625 /* main.m */; };
-		2AE165C921D0E041004BA625 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE165C821D0E041004BA625 /* ViewController.m */; };
 		2AE165CA21D0E07D004BA625 /* CSThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE165C721D0E026004BA625 /* CSThread.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2ABC611021D3283C00911A93 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		2AE165A921D0E017004BA625 /* CSThread.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CSThread.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AE165AC21D0E017004BA625 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2AE165AD21D0E017004BA625 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -30,7 +31,6 @@
 		2AE165BE21D0E017004BA625 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2AE165C621D0E026004BA625 /* CSThread.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSThread.h; sourceTree = "<group>"; };
 		2AE165C721D0E026004BA625 /* CSThread.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSThread.m; sourceTree = "<group>"; };
-		2AE165C821D0E041004BA625 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../../threadDemo/threadDemo/ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,7 +67,7 @@
 				2AE165AC21D0E017004BA625 /* AppDelegate.h */,
 				2AE165AD21D0E017004BA625 /* AppDelegate.m */,
 				2AE165AF21D0E017004BA625 /* ViewController.h */,
-				2AE165C821D0E041004BA625 /* ViewController.m */,
+				2ABC611021D3283C00911A93 /* ViewController.m */,
 				2AE165B221D0E017004BA625 /* Main.storyboard */,
 				2AE165B821D0E017004BA625 /* Assets.xcassets */,
 				2AE165BA21D0E017004BA625 /* LaunchScreen.storyboard */,
@@ -162,7 +162,7 @@
 				2AE165B721D0E017004BA625 /* CSThread.xcdatamodeld in Sources */,
 				2AE165BF21D0E017004BA625 /* main.m in Sources */,
 				2AE165AE21D0E017004BA625 /* AppDelegate.m in Sources */,
-				2AE165C921D0E041004BA625 /* ViewController.m in Sources */,
+				2ABC611121D3283C00911A93 /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
